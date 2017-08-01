@@ -1,0 +1,39 @@
+2017-05-27 12:45:20 - Error: Class 'HttpInvalidParamException' not found in C:\wamp\www\university\DMP\Request.php:43
+Stack trace:
+#0 C:\wamp\www\university\Controllers\Default\GameController.php(244): DMP\Request->post('gameId')
+#1 C:\wamp\www\university\DMP\DMP.php(66): GameController->processAction(Object(DMP\Request))
+#2 C:\wamp\www\university\public\index.php(10): DMP\DMP->run()
+#3 {main}
+
+2017-05-27 12:46:05 - Error: Class 'HttpInvalidParamException' not found in C:\wamp\www\university\DMP\Request.php:43
+Stack trace:
+#0 C:\wamp\www\university\Controllers\Default\GameController.php(244): DMP\Request->post('gameId')
+#1 C:\wamp\www\university\DMP\DMP.php(66): GameController->processAction(Object(DMP\Request))
+#2 C:\wamp\www\university\public\index.php(10): DMP\DMP->run()
+#3 {main}
+
+2017-05-27 13:00:28 - Error: Class 'HttpRequestMethodException' not found in C:\wamp\www\university\DMP\Request.php:35
+Stack trace:
+#0 C:\wamp\www\university\Controllers\Default\CategoryController.php(126): DMP\Request->post('categoryId')
+#1 C:\wamp\www\university\DMP\DMP.php(66): CategoryController->editCategoryAction(Object(DMP\Request))
+#2 C:\wamp\www\university\public\index.php(10): DMP\DMP->run()
+#3 {main}
+
+2017-05-27 13:00:44 - Error: Cannot use object of type mysqli_result as array in C:\wamp\www\university\Controllers\Default\CategoryController.php:138
+Stack trace:
+#0 C:\wamp\www\university\DMP\DMP.php(66): CategoryController->editCategoryAction(Object(DMP\Request))
+#1 C:\wamp\www\university\public\index.php(10): DMP\DMP->run()
+#2 {main}
+
+2017-05-27 13:00:46 - Error: Cannot use object of type mysqli_result as array in C:\wamp\www\university\Controllers\Default\CategoryController.php:138
+Stack trace:
+#0 C:\wamp\www\university\DMP\DMP.php(66): CategoryController->editCategoryAction(Object(DMP\Request))
+#1 C:\wamp\www\university\public\index.php(10): DMP\DMP->run()
+#2 {main}
+
+2017-05-27 13:03:15 - mysqli_sql_exception: Have a problem with the SQL! in C:\wamp\www\university\Controllers\Default\CategoryController.php:166
+Stack trace:
+#0 C:\wamp\www\university\DMP\DMP.php(66): CategoryController->processAddCategoryAction(Object(DMP\Request))
+#1 C:\wamp\www\university\public\index.php(10): DMP\DMP->run()
+#2 {main}
+

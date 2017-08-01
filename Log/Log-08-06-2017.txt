@@ -1,0 +1,12 @@
+2017-06-08 13:54:01 - mysqli_sql_exception: Can't execute the query! in C:\wamp\www\university\Controllers\Default\GameController.php:185
+Stack trace:
+#0 C:\wamp\www\university\DMP\DMP.php(66): GameController->showGameAction(Object(DMP\Request))
+#1 C:\wamp\www\university\public\index.php(10): DMP\DMP->run()
+#2 {main}
+
+2017-06-08 14:05:08 - Exception: asfdasf in C:\wamp\www\university\Controllers\Default\DefaultController.php:14
+Stack trace:
+#0 C:\wamp\www\university\DMP\DMP.php(66): DefaultController->indexAction(Object(DMP\Request))
+#1 C:\wamp\www\university\public\index.php(10): DMP\DMP->run()
+#2 {main}
+
